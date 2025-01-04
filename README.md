@@ -1,2 +1,2 @@
-"# BirdGame" <<endl;
+"# BirdGame"
 "World Eagle"
