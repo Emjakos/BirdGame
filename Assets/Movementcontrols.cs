@@ -23,12 +23,11 @@ public class Movementcontrols : MonoBehaviour
         // Make it move 10 meters per second instead of 10 meters per frame...
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
-        //constant movementspeed without pressing buttons
-        transform.Translate(0, constantspeed * Time.deltaTime, 0);
-        // Move translation along the object's z-axis
-        transform.Translate(0, translation, 0);
+  
+        // Move translation along the object's y-axis
+        transform.Translate(0, translation + constantspeed * Time.deltaTime, 0);
 
         // Rotate around our y-axis
-        transform.Rotate(0, 0, rotation);
+        transform.Rotate(0, 0, -rotation);
     }
 }
