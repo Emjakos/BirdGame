@@ -1,2 +1,2 @@
-"# BirdGame /n"
+"# BirdGame >>endl"
 "World Eagle"
